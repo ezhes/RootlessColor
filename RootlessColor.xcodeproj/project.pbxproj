@@ -13,7 +13,7 @@
 		221F6EF51F095007003755B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221F6EF41F095007003755B8 /* Assets.xcassets */; };
 		221F6EF81F095007003755B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 221F6EF61F095007003755B8 /* LaunchScreen.storyboard */; };
 		221F6EFB1F095007003755B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F6EFA1F095007003755B8 /* main.m */; };
-		221F6F051F095035003755B8 /* GammaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F6F031F095035003755B8 /* GammaController.m */; };
+		22AA194A1FC9563400A6825F /* GammaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AA19491FC9563400A6825F /* GammaController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,6 @@
 		221F6EF71F095007003755B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		221F6EF91F095007003755B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		221F6EFA1F095007003755B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		221F6F031F095035003755B8 /* GammaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GammaController.m; path = ../../../../../Downloads/GammaThingy/GammaTest/mvc/controller/GammaController.m; sourceTree = "<group>"; };
-		221F6F041F095035003755B8 /* GammaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GammaController.h; path = ../../../../../Downloads/GammaThingy/GammaTest/mvc/controller/GammaController.h; sourceTree = "<group>"; };
 		221F6F081F095074003755B8 /* IOHIDDisplay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOHIDDisplay.h; sourceTree = "<group>"; };
 		221F6F091F095074003755B8 /* IOHIDEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOHIDEvent.h; sourceTree = "<group>"; };
 		221F6F0A1F095074003755B8 /* IOHIDEventData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOHIDEventData.h; sourceTree = "<group>"; };
@@ -57,6 +55,8 @@
 		221F6F231F095074003755B8 /* IOPMLibDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOPMLibDefs.h; sourceTree = "<group>"; };
 		221F6F241F0959E1003755B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		221F6F271F095EE4003755B8 /* IMG_1258.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1258.PNG; sourceTree = "<group>"; };
+		22AA19481FC9563400A6825F /* GammaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GammaController.h; path = "../../../../../Downloads/GammaThingy-master/GammaTest/mvc/controller/GammaController.h"; sourceTree = "<group>"; };
+		22AA19491FC9563400A6825F /* GammaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GammaController.m; path = "../../../../../Downloads/GammaThingy-master/GammaTest/mvc/controller/GammaController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +95,8 @@
 				221F6EEC1F095007003755B8 /* AppDelegate.m */,
 				221F6EEE1F095007003755B8 /* ViewController.h */,
 				221F6EEF1F095007003755B8 /* ViewController.m */,
-				221F6F041F095035003755B8 /* GammaController.h */,
-				221F6F031F095035003755B8 /* GammaController.m */,
+				22AA19481FC9563400A6825F /* GammaController.h */,
+				22AA19491FC9563400A6825F /* GammaController.m */,
 				221F6EF11F095007003755B8 /* Main.storyboard */,
 				221F6EF41F095007003755B8 /* Assets.xcassets */,
 				221F6EF61F095007003755B8 /* LaunchScreen.storyboard */,
@@ -237,7 +237,7 @@
 				221F6EF01F095007003755B8 /* ViewController.m in Sources */,
 				221F6EFB1F095007003755B8 /* main.m in Sources */,
 				221F6EED1F095007003755B8 /* AppDelegate.m in Sources */,
-				221F6F051F095035003755B8 /* GammaController.m in Sources */,
+				22AA194A1FC9563400A6825F /* GammaController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +410,7 @@
 				221F6F001F095007003755B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
