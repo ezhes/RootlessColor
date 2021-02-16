@@ -2,8 +2,8 @@
 //  ViewController.m
 //  RootlessColor
 //
-//  Created by Salman Husain on 7/2/17.
-//  Copyright © 2017 Salman Husain. All rights reserved.
+//  Created by Allison Husain on 7/2/17.
+//  Copyright © 2017 Allison Husain. All rights reserved.
 //
 
 #import "ViewController.h"
